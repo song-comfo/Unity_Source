@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Contact_Product
+  m_Shader: {fileID: 4800000, guid: 7b229282fe6fd6e42a3d3694e5df8371, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ADAPTIVEMAX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CV_OtherSDF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CV_SelfSDF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdaptiveFloor: 0.06
+    - _AdaptiveMax: 1
+    - _AttributionSlack: 1
+    - _CV_OtherDistScale: 1.4126394
+    - _CV_OtherTol: 0.0055181226
+    - _CV_OtherValid: 1
+    - _CV_SelfDistScale: 0.99967355
+    - _CV_SelfTol: 0.0039049748
+    - _CV_SelfValid: 1
+    - _DebugMode: 0
+    - _FacingThreshold: 0.25
+    - _HeatGamma: 0.55
+    - _MaxPenetration: 0.08
+    - _ProbeDepth: 0.18
+    - _ProbeSteps: 48
+    - _UseFacingGate: 0
+    m_Colors:
+    - _BaseColor: {r: 0.55, g: 0.55, b: 0.58, a: 1}
+    - _CV_OtherBoxCenter: {r: -1.9999981, g: 22.195366, b: -92.501045, a: 0}
+    - _CV_OtherBoxSize: {r: 141.26392, g: 87.14998, b: 133.6924, a: 0}
+    - _CV_SelfBoxCenter: {r: -0.01999998, g: 0.000000029802322, b: -0.4346406, a: 0}
+    - _CV_SelfBoxSize: {r: 0.72263926, g: 0.75982815, b: 0.9996733, a: 0}
+    - _ContactColor0: {r: 0.14999998, g: 0.34999996, b: 1, a: 1}
+    - _ContactColor1: {r: 0, g: 0.85, b: 0.9, a: 1}
+    - _ContactColor2: {r: 0.09999997, g: 1, b: 0.19999996, a: 1}
+    - _ContactColor3: {r: 1, g: 0.95, b: 0.09999997, a: 1}
+    - _ContactColor4: {r: 1, g: 0.049999982, b: 0.049999982, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
