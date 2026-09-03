@@ -44,7 +44,7 @@
 2. Package Manager에서 **Visual Effect Graph**, **glTFast** 설치 (모델 임포트 전에 먼저!)
 
 ### Step 2 — 파일 배치
-1. `Assets/ContactVis/` 폴더째 복사 (meta 포함)
+1. `Assets/ContactVis/`를 생성하고 cs, shader, mat 파일들 복사 (meta 포함)
 2. 모델(.glb 등)을 `Assets/`에 넣고 컴파일 에러가 없는지 확인
 
 ### Step 3 — 모델 임포트 확인
